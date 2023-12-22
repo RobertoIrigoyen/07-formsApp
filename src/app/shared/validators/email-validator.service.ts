@@ -24,6 +24,8 @@ export class EmailValidatorService implements AsyncValidator {
 
         return httpCallObservable;
     }
+
+
     /* validate(control: AbstractControl<any, any>): Observable<ValidationErrors | null> {
         const email = control.value;
         console.log({ email });
